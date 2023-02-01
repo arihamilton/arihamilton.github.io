@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    z-index: 1;
+}
+
+h1, h2, h3, p, div {
+    z-index: 1;
+}
+
+.introduction {
+    background-color: rgb(128, 177, 255);
+    text-align: center;
+    color: rgb(3, 14, 89);
+    font-family: "Varela Round", sans-serif;
+    margin: 0px 0px -10px 0px;
+}
+
+.introduction > h1 {
+    font-size: 5rem;
+}
+
+.introduction > h2 {
+    font-size: 2rem;
+    color:rgb(0, 71, 204);
+}
+
+.introduction > p {
+    font-size: 1rem;
+    color: rgb(6, 0, 26);
+}
+
+.bubbles-img {
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    z-index: 0;
+}
+
+.wavy-img {
+    position: absolute;
+    top: 90%;
+    left: 0px;
+    z-index: 0;
+}
+
+
+
+.front {
+    position: relative;
+    z-index: 1; 
+}
+
+hr {
+    border-color: black;
+    border-width: 3px;
+}
+
+.skills {
+    background-color: rgb(170, 206, 246);
+    padding: 40px 4px 0px 4px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    justify-content: center;
+}
+
+.skills > h2 {
+    font-size: 3.5rem;
+    color:rgb(0, 36, 103);
+    font-family: "Varela Round", sans-serif;
+}
+
+.skills > h3 {
+    font-size: 2.1rem;
+    color:rgb(0, 60, 210);
+    font-family: "Varela Round", sans-serif;
+}
+
+.column-left {
+    float: left;
+    margin: 0px 3px;
+    width: 40%;
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px 2px 0px 0px;
+    border-style: solid;
+    border-color: white;
+}
+
+.column-right {
+    float: left;
+    margin: 0px 3px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(0, 20, 134);
+}
+
+.column-holder {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(83, 203, 236);
+    width: 50%;
+    border-radius: 15px;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    z-index: 1;
+    transition: box-shadow 0.3s
+}
+
+.column-holder:hover {
+    box-shadow: 0 0 40px 20px rgb(181, 235, 255);
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.silly-hr {
+    width: 60%;
+    border-style: dashed;
+    border-color: rgb(0, 24, 129);
+}
+
+.job-img {
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.get-in-touch {
+    font-size: 2rem;
+    padding: 3px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 5px 6px teal;
+    transition: font-size 0.4s
+}
+
+.get-in-touch:hover {
+    font-size: 2.2rem;
+}
+
+#wavy-img-2 {
+    top: 200%;
+}
+
+/*  */
+
+a {
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+    transition: color 0.1s
+}
+
+a:hover {
+    color: rgb(244, 208, 32);
+}
+
+/*  */
+
+.footer {
+    background-color: rgb(128, 177, 255);
+    text-align: center;
+    color: rgb(6, 68, 154);
+    font-family: "Varela Round", sans-serif;
+    margin: -10px 0px 0px 0px;
+    padding: 0;
+}
+
+.footer > p {
+    font-size: 1.5rem;
+}
+
+/* Contact */
+
+.contact {
+    background-color: rgb(128, 177, 255);
+    text-align: center;
+    color: rgb(3, 14, 89);
+    font-family: "Varela Round", sans-serif;
+    margin: 0px 0px -10px 0px;
+}
+
+.center-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container > h1 {
+    font-size: 5rem;
+}
+
+.contact-container > p {
+    font-size: 1.5rem;
+    font-family: "Nunito", sans-serif;
+    color:rgb(0, 71, 204)
+}
+
+.card {
+    width: 300px;
+    padding: 0;
+    margin: 20px 0px;
+    border: 5px solid black;
+    border-radius: 9px;
+    box-shadow: 8px 9px teal;
+}
+
+.card-container {
+    background-color: white;
+    padding: 4px;
+    margin: -4px 0px 0px 0px;
+    border-top: 4px solid black;
+}
